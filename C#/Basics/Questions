@@ -1,0 +1,128 @@
+What is .Net framework? Different Versions of .Net framework?
+What is latest .Net framework and Vs available?
+What is OOPS? 
+Important OOPS concepts?
+What is Class and how to declare the class?
+What is object and how to declare the Object?
+What is Access modifier in .Net, Public, Private, Internal,Protected, Protected Internal. 
+What are naming convention for class in .net?
+Can we create class name with numbers?
+Can we use special character to create the class?
+By default class follows which access modifier?
+Types of Access specifier/modifiers?
+Can we declare class as private/protected/protected /internal? 
+ By default class members are, means access modifier?
+Diff between Public, private and Internal access modifier?
+Difference between protected and protected internal?
+ Default access modifier for class members/variables are:
+ Default access modifier for class members/variables are:Is it necessary to have Main method in console application?
+If yes then there will be compile time or runtime error?
+ What is entry point in console application?
+Is it necessary to have parameter in Main method?
+Can we have  Main method in some other class?
+What is inheritance?
+ What is base/parent and child/derived class.
+ How to reuse inherited members in child class?
+ Does c# supports multiple inheritance?
+How to achieve multiple inheritance?
+Why c# does not support multiple inheritance?
+ Is circular inheritance possible ? A:B, and B:A
+ How do you prevent a class from being inherited ?
+ What is Sealed keyword?
+ Can we create the object of Sealed class?
+Can derive class have public modifier when there are no modifiers specified on the base class?
+Can we mark methods as Sealed? 
+what do you mean by upcasting and downcasting ?
+  BaseClass b = new BaseClass() ?
+  BaseClass b = new ChildClass() ?
+  ChildClass c = new ChildClass() ?
+  ChildClass c = new BaseClass() ?
+  BaseClass b = new BaseClass() ? 
+ ChildClass c = (ChildClass) b   BaseClass b = new ChildClass() : both   have Test()  b.Test();
+ Base or child method will be called?
+What is interface?
+By default interface is?
+Can we have access modifier in interface?
+Can we have variables in interface?
+Can we create instance of interface? 
+Can we create constructor in interface?
+Can we declare properties in interface?
+Can interface inherit another interface?
+Can interface inherit class?
+How to achieve multiple inheritance through interface?
+If 2 interface has same method then how to implement the method?
+What is implicit implementation and when to use in interface?
+What is explicit implementation and when to use?
+Is it compulsory to implement all methods of interface?
+How to call interface implemented methods?
+How to call explicit implemented methods of interface?
+What is Constructor? Use of constructor?
+Different types of constructor?
+What is Default constructor?
+What is parameterized constructor? 
+ Use of parameterized constructor? 
+What is constructor overloading?
+Is it mandatory to have default and parameterized constructor in class?
+If we have only parameterized constructor, can we create the object of class?
+What is copy constructor?
+Purpose of copy constructor?
+What is private constructor? 
+Use/purpose of private constructor?
+Can we have default and private constructor both in class? 
+Can we create the object of class if we have only private constructor in class?
+Can we inherit the class if we have only private constructor in class?
+Can we have parameters in private constructor?
+What is static constructor?
+Can we have access modifier in static constructor?
+Can we pass parameters in static constructor?
+How to call static constructor or when static constructor is called?
+How many times we can call static constructor?
+When we create instance of class, which constructor is called first?
+Use/Purpose of static constructor?
+Can we have static constructor only?
+How can we call one constructor from another in the same class ?
+When we create instance of child class which constructor is first called, child or Parent?
+ How to call explicitly base class constructor  from child class?
+Can we call base class parameterized constructor from child class constructor?
+if we have only parameterized constructor in base class, can we create object of child class?
+Default access modifier/specifier for constructor ?
+What is destructor?
+Can we have access modifier in destructor?
+Can we have parameters in destructor?
+How many destructor we can have in one class? 
+Can we define destructor in struct data type?
+Do we have any control when destructor will be called?
+Do we always need to implement the destructor?
+When we define destructor, which method of garbage collector is called?
+What is polymorphism?
+Types of polymorphism?
+What is method overloading? Example of method Overloading?
+When we should use method overloading?
+What are different names used for method overloading?
+What is method overriding?
+How to achieve method overriding?
+Is it mandatory to implement virtual method of base class in child class?
+Can we override non-virtual method?
+Can we use the virtual modifier with the static, abstract, private or override modifiers. 
+Can we use virtual for internal, protected and protected internal?
+What are different names/terms used for overriding
+If parent class virtual method and child have same method without override keyword, Will code be compiled? 
+In above case which error/warning will be shown? 
+What is “new” keyword in method overriding?: method hiding
+When to use “new” keyword in method overriding?
+What’s the difference between new and override keyword?
+Can we allow a class to be inherited but prevent method to be overridden? 
+What is Params keyword?
+How to achieve method overloading through Params?
+Order of params parameters?: it must be placed at last in method
+What is abstract class?
+What is the syntax of abstract class?
+What is the abstract method?
+Can we declare abstract method as private?
+Can we create instance of abstract class?
+Can abstract class inherit another class?
+Can abstract class inherit interface?
+Can abstract class have constructor?
+Can we declare Abstract class as static?
+Can we declare Static methods in abstract class? 
+Difference between Abstract class and interface?(Most imp)

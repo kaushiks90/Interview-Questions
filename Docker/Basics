@@ -1,0 +1,42 @@
+Images	Commands
+------------------------------------------------------------------------------------------------
+Where the docker images saved by default-->C:\Users\Public\Documents\Hyper-V\Virtual Hard Disk
+To Get all the docker images-->docker images
+To Delete all the docker images-->docker image prune --all
+How to Build a new docker Images-->docker build -t <ImageName> .
+To pull an image from docker registry-->docker pull imagename
+Tagging/Versioning a docker Image-->docker tag <image name> <Image Name>:<Version>
+docker remove images-->docker rmi <imageid1 imageid2>
+docker inspect image-->docker inspect<image Id>
+
+Note---> :Images cannot be deleted if it is associated with any containers.
+So to proceed we have to delete the associated container. 	
+	
+Container Commands
+-------------------------------------------------------------------------------------------------
+To Get all the docker containers-->docker container ls
+How to create a new container from Docker Image-->	docker run -d -p 15666:80 --name <Container Name> <Image Name>
+Create a docker container with env variable-->	docker run -d -p 15002:80 --env ASPNETCORE_ENVIRONMENT=QA --name <Container Name> <docker name> .
+docker remove a container-->docker rm <container id>
+docker stop a container-->docker stop <container Id>
+docker start a container-->docker start <container Id>
+docker inspect container--> docker inspect<container Id>
+
+
+***Important
+Get docker container files 
+docker cp <container name>:/src C:\Users\Kaushik\Desktop\DockerCodes
+/src -->Working directory (Do docker inspect container id to find the working directory)
+C:\Users\Kaushik\Desktop\DockerCodes-->Path where the container files needs to be copied
+	
+To see all the containers and other details related to docker	docker info
+	
+	
+To push Docker Image from Local System to Docker Hub	Step 1) docker login 
+	Step 2)docker tag <Image Name> <su1991>/<Image Name>:<version>
+	Step 3)docker push <su1991>/<Image Name>:<version>
+
+
+UI Tool For Docker
+---------------------
+Use Kitematic tool to easily view docker containers running ,ports used and to pull a image	

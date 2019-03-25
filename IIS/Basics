@@ -1,0 +1,16 @@
+Hosting .Net Core App in IIS
+
+Steps
+Install IIS
+Install "Internet Information services hostable web core"
+Install ASPNet Core Module Bundle
+Cross Check if Bundle is installed or not→ IIS→ Click Any sites→ Click on Modules→Check for ASP NET CORE MODULES
+In App Pool Change .Net CLR Version to No Managed Code
+
+Problems faced during hosting in IIS
+----------------------------------------------
+Which appsettings.json will be used?
+By Default appsettings.json file is used by the published application. But if we have more then 1 appsettings files then it will look for appsettings.Production.json
+Error Code 500.19
+Give permission to IIS user to the physical files  folder iis Apppool\<Application pool Name>
+If above steps are not working then remove “allowedhosts:*” from appsetting.json.

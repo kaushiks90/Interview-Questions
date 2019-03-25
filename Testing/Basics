@@ -1,0 +1,25 @@
+Types Of Testing→ Unit Test, Integration Test, End To End Test.
+	
+Unit Test:
+-------------
+Test a unit of application (may be using multiple classes ) without it’s external dependencies (Files,Messages queues,Databases,Web Services etc.).
+Advantages-->It is Cheap to write and executes fast.
+Disadvantages-->Don’t give a lot of confidence as you are not dealing with external dependencies.
+
+Integration Test:
+--------------------
+Tests the application with it’s external dependencies.
+    Tests cases written for a method which has dependency on multiple class or method without  
+    involvement of external dependencies is not a part of Integration Test. 
+Advantages-->Give more confidence as you are dealing the external dependencies.
+Disadvantages-->Take long time to execute.
+
+End To End Test:
+------------------
+Drives an application through it’s UI
+Advantages-->Gives you most confidence,Good Unit Test,Clean, Readable, Maintainable
+Disadvantages-->No logic,Isolated,Not too specific nor to general
+
+Statement Coverage
+
+Branch Coverage
