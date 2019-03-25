@@ -1,0 +1,143 @@
+Array
+--------------------------------------
+Swap 2 numbers without using 3rd number
+Check if a number is prime
+Next Greatest Element in an array
+Hello World to Olleh Dlorw
+Reverse a string
+Reverse a number
+Number of ones in Binary
+Anagrams
+Palindromes
+ArmStrong Number
+Pascal Triangle
+Find First and second maximum number 
+Union and Intersection of 2 sorted Arrays
+Find the Missing Number
+Find the minimum distance between 2 numbers
+Leaders in an Array
+Majority Element
+Find the number occurring odd number of times
+Replace every element with the greates element on the right side
+Find a fixed point in a given array
+Find a peek element
+Count strictly increasing subArrays
+pythogorean triplet in an array
+Segregate 0's and 1's in an Array
+Print the missing elements that lie in the range of 0-99
+Floor and ceiling in the sorted Array
+Implement 2 stacks in an Array
+Find the minimum distance between the 2 elements 
+Find the duplicates in O(n) time and O(1) extra space
+Find the lost element from a duplicated array
+Two elements whose sum is closest to Zero
+Maximum Length Bitonic SubArray
+Count Minimum steps to get the given desired Array
+Find the minimum number of operations to make an array palindrome
+Move all zeros to end of the Array
+Saerch an element in sorted and rotated array
+Convert array to Zig-Zag fasion
+
+
+
+Stack
+------------------------------------
+Check for Balanced Parenthesis in a String
+Implement queue using 2 stack
+Reverse a string using stack
+Next greatest element using stack
+Reverse a number using stack
+Infix to postFix
+Evaluate a postfix expression
+Reverse a stack using recursion
+sort stack iterative
+sort a stack using recursion
+Max stack
+Find duplicate paranthesis in an expression
+
+Queue
+------------------------------
+Implement a stack using single queue
+Implement stacks using queues
+circular queue
+Reverse a queue
+Priority Queue
+
+
+Searching
+-----------------------------
+Binary (iterative,recursive) 
+Linear
+
+
+Sorting
+-----------------------------
+Selection sort
+merge sort
+bubble sort
+insertion sort
+quick sort
+
+Matrix
+-----------------------------
+Zero Matrix
+Square Sub matrix
+Addition
+Mutiplication
+Transpose 
+Print matrix diagonally
+Search an element in sorted Matrix
+print Matrix in a spiral form
+
+
+Linked List
+------------------------
+Add first
+Add last
+Add at a given position 
+delete first 
+delete last 
+delete at a given pos
+Add 1 to a number represented as Linked List
+Delete n nodes after m nodes in a linked list
+Rearrange a linked list such that all the even and odd positioned nodes are together
+Decimal Equivalent of Binary Linked List
+Check if a linked list is a circular linked list
+Delete a linked list at a given position
+Find the length of a linked list
+Detection of loop in a linked list
+Flattening Linked list
+to get nth node in a linked list
+search an element in linked list
+function to delete a linked list
+Merge 2 sorted linked list
+reverse a linked list
+find the middle of a linked list
+count the number of time the given int occurs in a linked list
+check whether the length of the linked list is even or odd
+sort linked list in 0's 1's or 2's
+Remove duplicates from linked list
+Delete middle of a linked list
+Insert a whole linked list into other Linked list kth position 
+Check if a linked list of node form a palindrome
+Delete a linked list using recursion
+Identical Linked List
+Rotate the linked list
+Convert a singly linked list into circular linked list
+Print alternate node of linked list
+Print alternate node of linked list using recursion
+
+Binary Tree
+--------------
+Tree Traversals
+Level Order Tree traversals
+Inorder without recursion
+Reverse Level order Traversals
+Count half nodes in a Binary tree
+Count Leaf nodes in a Binary tree
+Iterative method to count full nodes in a binary tree
+
+
+
+
+
