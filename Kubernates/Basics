@@ -1,0 +1,32 @@
+
+To deploy and scale multiple containers in microservices architecture,container Orchestration comes into picture
+There are different types container orchestration 
+1.Azure Container Service
+2.Amazon ECs
+3.Marathon
+4.Google Container Engine(GKE)
+5.Kubernates
+6.Docker Swarm
+
+Kubernates-->Is an open source system for automating deployment,scaling and 
+management of containerized applications
+
+PreRequisite :Yml
+
+Kubernates Keywords
+Node
+ Kublet
+ Communicates with master
+ Runs Pods
+
+Pod
+ Runs 1+ containers
+ Exists on a node
+
+Service
+ Handles requests
+ Usually a load balancer
+
+Deployment
+ Defines desired state-kubernates handles the rest
+
