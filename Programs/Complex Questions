@@ -210,6 +210,7 @@
                Given an input string and a dictionary of words, find out if the input string can be segmented into a space-separated sequence of dictionary words.
                Given a binary matrix, find out the maximum size square sub-matrix with all 1s.
                Find the maximum coins you can collect by bursting the balloons wisely.
+               https://www.educative.io/collection/5668639101419520/5633779737559040
 
 
    4.12 Graphs
