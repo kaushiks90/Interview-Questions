@@ -40,3 +40,8 @@ To push Docker Image from Local System to Docker Hub	Step 1) docker login
 UI Tool For Docker
 ---------------------
 Use Kitematic tool to easily view docker containers running ,ports used and to pull a image	
+
+To Create a RabbitMQ image locally
+docker run -d --hostname my-rabbit --name some-rabbit -p 8080:15672 rabbitmq:3-management
+  Browse using http://localhost:8080/
+

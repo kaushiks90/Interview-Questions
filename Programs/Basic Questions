@@ -35,9 +35,23 @@ Maximum Length Bitonic SubArray
 Count Minimum steps to get the given desired Array
 Find the minimum number of operations to make an array palindrome
 Move all zeros to end of the Array
-Saerch an element in sorted and rotated array
-Convert array to Zig-Zag fasion
+Search an element in sorted and rotated array
+Convert array to Zig-Zag fashion
 
+
+Recursion
+----------------------------------
+Factorial
+Fibonacci
+GCD
+Tower of Hanoi
+Multiplication of two natural numbers
+Binary Search
+Find maximum of n elements
+Find Minimum of n elements
+Sum of n elements in an array
+Product of n elements in an array
+Print array elements in reverse order
 
 
 Stack
@@ -53,7 +67,7 @@ Reverse a stack using recursion
 sort stack iterative
 sort a stack using recursion
 Max stack
-Find duplicate paranthesis in an expression
+Find duplicate parenthesis in an expression
 
 Queue
 ------------------------------
@@ -83,7 +97,7 @@ Matrix
 Zero Matrix
 Square Sub matrix
 Addition
-Mutiplication
+Multiplication
 Transpose 
 Print matrix diagonally
 Search an element in sorted Matrix
