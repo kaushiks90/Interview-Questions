@@ -81,6 +81,10 @@ Priority Queue
 Searching
 -----------------------------
 Binary (iterative,recursive) 
+Finding first and last occurrence of a number
+Count Occurrences of a number in a sorted array with duplicates using Binary search
+How many times is the sorted array rotated
+Search element in a circular sorted array
 Linear
 
 
