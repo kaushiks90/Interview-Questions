@@ -44,6 +44,7 @@ What is interface?
 By default interface is?
 Can we have access modifier in interface?
 Can access specifier of abstract member of abstract class be private?
+Can we difine access modifier for abstract member of a abstract class?
 Can we have variables in interface?
 Can we create instance of interface? 
 Can we create constructor in interface?
