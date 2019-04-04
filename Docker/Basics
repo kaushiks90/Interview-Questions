@@ -22,6 +22,11 @@ docker stop a container-->docker stop <container Id>
 docker start a container-->docker start <container Id>
 docker inspect container--> docker inspect<container Id>
 
+***Using GitBash
+Remove all the running and stopped containers
+	docker stop $(docker ps -a -q)
+	docker rm $(docker ps -a -q)
+
 
 ***Important
 Get docker container files 
