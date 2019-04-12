@@ -126,3 +126,21 @@ Can abstract class have constructor?
 Can we declare Abstract class as static?
 Can we declare Static methods in abstract class? 
 Difference between Abstract class and interface?(Most imp)
+
+
+Can a public class derived from internal class?
+Can a class have private and parameterized constructor?
+Difference between primitive and non-primitive
+Can a variable be sealed?
+Usage of sealed class, sealed method and sealed variable
+Runtime and compile time ,static vs dynamic (polymorphism)
+pass by value,pass by reference
+ref ,out,tuple
+Index
+Delegate event
+reflection
+Async await
+thread
+File handling(insert into text)
+getter and setter(private,private protected,protected,protected internal)
+Destructors

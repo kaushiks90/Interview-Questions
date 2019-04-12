@@ -1,0 +1,102 @@
+Data Abstraction: Data Abstraction is a concept in which the internal and superfluous details of the implementation of a logic is hidden from an end user(who is using the program) 
+.A user can use any of the data and method from the class without knowing about how this is created or what is the complexity behind it. 
+In terms of a real world example, when we drive a bike and change the gears we don’t have to care about how internally its working, like how lever is pulled or how chain is set.
+
+Inheritance: Inheritance is most popular Concept in OOP’s .This provides a developer an advantage called reusability of code.
+Suppose a class is written having functions with specific logic, then we can derive that class into our newly created class and we don’t have to write
+the logic again for derived class functions,we can use them as it is.
+
+Data Encapsulation: Wrapping up of member data and member functions of a class in a single unit is called encapsulation. 
+The visibility of the member functions,data members is set via access modifiers used in class.
+
+Polymorphism: Poly means many and morphism means changing or alterable. The Concepts Introduces in the form of Many behaviours of an object.
+Message Communication: Message Communication means when an object passes the call to method of class for execution.
+
+
+
+C# recognizes the method by its parameters and not only by its name.
+The return value/parameter type of a method is never the part of method signature if the names of the methods are same. So this is not polymorphism.
+Modifiers such as static are not considered as part of method signature.
+The signature of a method consists of its name, number and types of its formal parameters. The return type of a function is not part of the signature. 
+Two methods can not have the same signature and also non-members cannot have the same name as members.
+Parameter names should be unique. And also we can not have a parameter name and a declared variable name in the same function as same.
+In case of pass by value, the value of the variable is passed and in the case of ref and out, the address of the reference is passed.
+This params keyword can only be applied to the last argument of the method.So the n number of parameters can only be at the end.
+C# is very smart to recognize if the penultimate argument and the params have the same data type.
+Parameter array must be a single dimensional array.
+
+No one can stop a derived class to have a method with the same name already declared in its base class.
+Derived classes get a first chance at execution, then the base class.
+A reserved keyword named “base” can be used in derived class to call the base class method.
+Inheritance does not work backwards.
+Except constructors and destructors, a class inherits everything from its base class.
+In inheritance in C#, custom classes cannot derive from special built in C# classes like System.ValueType, System.Enum, System.Delegate, System.Array, etc.
+A class can only be derived from one class in C#. C# does not support multiple inheritance by means of class.
+Circular dependency is not allowed in inheritance in C#. ClassX is derived from ClassW which was derived from ClassY and ClassY was again derived from ClassX, which caused circular dependency in three classes, that is logically impossible.
+We can equate an object of a base class to a derived class but not vice versa.
+We cannot implicitly convert an int to char, but char can be converted to int.
+
+
+In C#, We can equate an object of a base class to a derived class but not vice versa.
+The override modifier is needed as the derived class methods will get first priority and be called upon.
+These modifiers like new and override can only be used if the method in the base class is a virtual method. 
+Virtual means that the base class is granting us permission to invoke the method from the derived class and not the base class. But, we have to add the modifier override if our derived class method has to be called.
+If the base class object declared the method virtual and the derived class used the modifier override, the derived class method will get called.
+Otherwise, the base class method will get executed. Therefore for virtual methods, the data type created is decided at run time only.
+All the methods not marked with virtual are non virtual, and the method to be called is decided at compile time, depending upon the static data type of the object.
+An override method is a method that has the override modifier included on it. This introduces a new implementation of a method.
+We can’t use the modifiers such as new, static or virtual along with override. But abstract is permitted.
+
+We cannot create an object of abstract class using new keyword.
+A class can be derived from an abstract class.
+A object of a class derived from an abstract class can be created using new.
+If we declare any method as abstract in our abstract class, then it’s the responsibility of the derived class to provide the body of that abstract method, unless a body is provided for that abstract method, 
+we cannot create an object of that derived class.
+When we override an abstract or a virtual method from a derived class, we cannot change the parameters passed to it or the return type of that overridden method .
+An abstract class means that the class is incomplete and cannot be directly used. An abstract class can only be used as a base class for other classes to derive from.
+If a class has even a single abstract method, then the class has to be declared abstract as well.
+An abstract method also cannot use the modifiers such as static or virtual.
+Virtual methods run slower that non virtual methods.
+Abstract class cannot be sealed class.
+Abstract class cannot be a static class.
+
+
+The default access modifier is private for class members.
+A class marked as internal can have its access limited to the current assembly only.
+Namespaces as we see by default can have no accessibility specifiers at all. They are by default public and we cannot add any other access modifier including public again too.
+A class can only be public or internal. It cannot be marked as protected or private. The default is internal for the class.
+Members of a class can be marked with all the access modifiers, and the default access modifier is private.
+Protected internal means that the derived class and the class within the same source code file can have access.
+Between public and internal, public always allows greater access to its members.
+Base class always allows more accessibility than the derived class.
+The return values of a method must have greater accessibility than that of the method itself.
+A class marked sealed can’t act as a base class to any other class.
+Since we cannot derive from sealed classes, the code from the sealed classes cannot be overridden.
+We need to initialize the const variable at the time we create it. We are not allowed to initialize it later in our code or program.
+Like classes, const variables cannot be circular, i.e., they cannot depend on each other.
+A const field of a reference type other than string can only be initialized with null.
+One can only initialize a const variable to a compile time value, i.e., a value available to the compiler while it is executing.
+A constant by default is static and we can’t use the instance reference, i.e., a name to reference a const. A const has to be static as no one will be allowed to make any changes to a const variable.
+A const variable cannot be marked as static.
+A variable in C# can never have an uninitialized value.
+Static variables are always initialized when the class is loaded first. An int is given a default value of zero and a bool is given a default of False.
+An instance variable is always initialized at the time of creation of its instance.
+A static readonly field cannot be assigned to (except in a static constructor or a variable initializer).
+
+
+An enum represents for a constant number, and an enum type is known as a distinct type having named constants.
+We can’t declare char as an underlying data type for enum objects because char stores Unicode characters, but enum objects data type can only be number.
+An enum can’t be derived from any other type except that of type byte, sbyte, short, ushort, int, uint, long, or ulong.
+By default, enum is a sealed class and therefore sticks to all the rules that a sealed class follows, so no class can derive from enum, i.e., a sealed type.
+The enum type is implicitly derived from System.Enum and so we cannot explicitly derive it from System.Enum.
+enum is also derived from three interfaces IComparable, IFormattable and IConvertible.
+Numerous predefined conversion methods can be used to convert enum from one data type to another.
+More than one enum members can be initialized a same constant value.
+An enum acts as a constant, so its value cannot be changed once initialized.
+The enumerator name 'value__' is reserved and cannot be used.
+
+The variable used for property should be of same data type as the data type of the property.
+A property cannot have a void return type.
+If one do not mark property defined in derived class as override, it will by default be considered as new.
+You cannot override an accessor that is not defined in a base class abstract property.
+Get accessor is only used to read a property value. A property having only get cannot be set with any value from the caller.

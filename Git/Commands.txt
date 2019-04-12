@@ -1,0 +1,24 @@
+git help
+git init
+git add .
+git status 
+git commit -m" your Message"
+git branch <branch name>
+git branch -d <branch name>
+git rm <filename.extension> -f
+git merge <branchname>
+git log
+git pull 
+git push origin master
+git checkout <branchname>
+git clone
+git diff id1 id2
+git reset --hard
+git stash push -m "message"
+git stash pop
+git stash list
+git stash drop
+
+
+
+

@@ -1,0 +1,15 @@
+Push
+Pull
+Clone
+Merge
+Conflict
+Branch
+Remove Files
+Undo Changes
+Status
+Init
+Staging
+Commit
+Stash
+Rebase
+Cherry Pick
