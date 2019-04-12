@@ -13,3 +13,9 @@ Commit
 Stash
 Rebase
 Cherry Pick
+
+
+Important Links
+--->stashing  (https://www.youtube.com/watch?v=hTDj7w8NcCY)
+--->Rebase  (https://www.themoderncoder.com/a-better-git-workflow-with-rebase/) 
+--->Git cherry pick (https://www.atlassian.com/git/tutorials/cherry-pick)
