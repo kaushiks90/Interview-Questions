@@ -163,6 +163,8 @@ Can a class have private and parameterized constructor?
 Difference between primitive and non-primitive
 Can a variable be sealed?
 Usage of sealed class, sealed method and sealed variable
+Parallel.Foreach vs Foreach
+typeOf vs getType
 Runtime and compile time ,static vs dynamic (polymorphism)
 pass by value,pass by reference
 ref ,out,tuple
