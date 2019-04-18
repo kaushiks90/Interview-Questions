@@ -11,25 +11,24 @@ Can we use special character to create the class?
 By default class follows which access modifier?
 Types of Access specifier/modifiers?
 Can we declare class as private/protected/protected /internal? 
- By default class members are, means access modifier?
+By default class members are, means access modifier?
 Diff between Public, private and Internal access modifier?
 Difference between protected and protected internal?
- Default access modifier for class members/variables are:
- Default access modifier for class members/variables are:Is it necessary to have Main method in console application?
-If yes then there will be compile time or runtime error?
- What is entry point in console application?
+Default access modifier for class members/variables are:
+Default access modifier for class members/variables are:Is it necessary to have Main method in console application?
+If yes then there will be compile time or runtime error? What is entry point in console application?
 Is it necessary to have parameter in Main method?
 Can we have  Main method in some other class?
 What is inheritance?
- What is base/parent and child/derived class.
- How to reuse inherited members in child class?
- Does c# supports multiple inheritance?
+What is base/parent and child/derived class.
+How to reuse inherited members in child class?
+Does c# supports multiple inheritance?
 How to achieve multiple inheritance?
 Why c# does not support multiple inheritance?
- Is circular inheritance possible ? A:B, and B:A
- How do you prevent a class from being inherited ?
- What is Sealed keyword?
- Can we create the object of Sealed class?
+Is circular inheritance possible ? A:B, and B:A
+How do you prevent a class from being inherited ?
+What is Sealed keyword?
+Can we create the object of Sealed class?
 Can derive class have public modifier when there are no modifiers specified on the base class?
 Can we mark methods as Sealed? 
 what do you mean by upcasting and downcasting ?
@@ -44,7 +43,7 @@ What is interface?
 By default interface is?
 Can we have access modifier in interface?
 Can access specifier of abstract member of abstract class be private?
-Can we difine access modifier for abstract member of a abstract class?
+Can we define access modifier for abstract member of a abstract class?
 Can we have variables in interface?
 Can we create instance of interface? 
 Can we create constructor in interface?
@@ -128,8 +127,37 @@ Can abstract class have constructor?
 Can we declare Abstract class as static?
 Can we declare Static methods in abstract class? 
 Difference between Abstract class and interface?(Most imp)
-
-
+Can multiple catch blocks be executed?
+What is Jagged Arrays?
+What is the use of using statement in C#?
+What is serialization?
+Can "this" be used within a static method?
+What is difference between constants and read-only?
+What is the difference between Array and Arraylist?
+Can a private virtual method be overridden?
+What are the differences between System.String and System.Text.StringBuilder classes?
+What's the difference between the System.Array.CopyTo() and System.Array.Clone() ?
+What is the difference between Finalize() and Dispose() methods?
+What are circular references?
+What is an object pool in .NET?
+What is difference between the "throw" and "throw ex" in .NET?
+What is the difference between directcast and ctype?
+Is C# code is managed or unmanaged code?
+Which class acts as a base class for all exceptions in C#?
+How C# supports dynamic polymorphism?
+What is the use of Null Coalescing Operator (??) in C#?
+What is the difference between “finalize” and “finally” methods in C#?
+Can we have only “try” block without “catch” block in C#?
+In try block if we add return statement whether finally block is executed in C#?
+Why to use lock statement in C#?
+Explain Hashtable in C#?
+Write a sample code to write the contents to text file in C#?
+Explain Partial Class in C#?
+Explain Anonymous type in C#?
+What Is Dynamic Keyword?
+What Is Var Keyword?
+What Is The Dll Hell Problem Solved In .net ?
+What Is A Satellite Assembly ?
 Can a public class derived from internal class?
 Can a class have private and parameterized constructor?
 Difference between primitive and non-primitive
@@ -142,8 +170,7 @@ Index
 Delegate event
 reflection
 Async await
-thread
+Threading
 File handling(insert into text)
-getter and setter(private,private protected,protected,protected internal)
-Destructors
-
+Getter and Setter(private,private protected,protected,protected internal)
+Explain Destructors
